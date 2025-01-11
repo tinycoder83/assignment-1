@@ -79,13 +79,11 @@ nav {
     color: rgba(14, 14, 14, 0.5);
 }
 
-.vision {
-    display: block;
-}
 
 .vision {
     padding-left: 100px;
     padding-right: 80px;
+    display: block;
 }
 
 .para {
@@ -206,55 +204,141 @@ nav {
     align-items: flex-start;
     padding-top: px;
 }
-.image-satelite img{
-    
+
+.image-satelite img {
+
     align-items: center;
     border-radius: 16px;
 }
-.satelite-2{
-    flex-direction:row-reverse;
+
+.satelite-2 {
+    flex-direction: row-reverse;
 }
-.donate{
+
+.donate {
     display: flex;
     text-align: center;
     padding-left: 100px;
     padding-right: 80px;
 }
-.amount li{
+
+.amount li {
     list-style: none;
     font-weight: 700;
     font-size: 40px;
     line-height: 48px;
-    padding-left: 90px ;
+    padding-left: 90px;
     align-items: center;
-    border: 1px solid rgba(14, 14, 14, 0.15); /* Add a border around the list item */
-    padding: 20px; /* Add padding inside the border */
-    margin-bottom: 10px; /* Add spacing between list items */
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    /* Add a border around the list item */
+    padding: 20px;
+    /* Add padding inside the border */
+    margin-bottom: 10px;
+    /* Add spacing between list items */
     border-radius: 5px;
     background-color: white;
-    
+
 }
-.amount ul{
+
+.amount ul {
     display: flex;
     align-items: center;
-    gap:50px;
+    gap: 50px;
     justify-content: center;
 }
-.amount ul .tk-2{
+
+.amount ul .tk-2 {
     background-color: rgb(198, 228, 214);
 }
-.form{
+
+.form {
     border-radius: 16px;
     border: 1px solid rgba(14, 14, 14, 0.15);
     text-align: center;
     padding-top: 20px;
     font-size: larger;
 }
-.done{
-    box-sizing: border-box;
-border: 1px solid rgba(14, 14, 14, 0.1);
-border-radius: 8px;
 
-background: rgb(0, 106, 80);
-margin-top: 20px;
+.done {
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    border-radius: 8px;
+
+    background: rgb(0, 106, 80);
+    margin-top: 20px;
+}
+
+.pillars {
+    padding-left: 100px;
+    padding-right: 80px;
+    display: block;
+}
+
+.boxs {
+    display: flex;
+    gap: 10px;
+  
+}
+
+.pillar-of-bd {
+    padding: 30px;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    align-items: center;
+
+}
+.subscriber {
+    padding: 80px;
+    padding-right: 80px;
+    text-align: center;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    margin-top: 20px;
+    margin-left: 95px;
+    margin-right: 95px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    
+}
+.subscriber h1{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 5px;
+}
+.subscriber p{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+letter-spacing: 0%;
+text-align: center;
+}
+.subscriber input{
+    padding: 10px;
+    border-radius: 10px;
+}
+.footer{
+    padding-left: 100px;
+    padding-right: 80px;
+    text-align: center;
+
+}
+.footer hr{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.image img{
+    align-items: center;
+    flex-direction: column;
 }
