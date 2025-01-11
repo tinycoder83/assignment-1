@@ -2,6 +2,9 @@
     font-family: "Fira Sans", serif;
     font-weight: 400;
     font-style: normal;
+   
+}
+.fira-sans-thin p{
     color: rgba(14, 14, 14, 0.7);
 }
 
